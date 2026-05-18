@@ -1,3 +1,5 @@
+
+
 public class First {
 
    public static void main(String[] args) { 
@@ -44,7 +46,7 @@ public class First {
        System.out.println(name.length());
        */
        
-       //Strings
+       //Strings--immutable
        /*
        1.---concatenate-----:adding two string.
 
@@ -62,12 +64,52 @@ public class First {
         String name = "Aman";
         String name2 = name.replace('a','b');
         System.out.println(name2);
-        System.out.println(name);*/
+        System.out.println(name);
 
         //substring
 
         String name = "Aman and akku";
-        System.out.println(name.substring(5,9));
+        System.out.println(name.substring(5,9)); // (include ,exclude)
+
+        */
+
+        //Arrays
+         
+        /* 
+        int age = 30;
+        int physics = 80;
+        int chem = 98;
+        int eng = 95 ;
+
+        int[] marks = new int[3];
+           marks[0] =97;
+           marks[1] =98;
+           marks[2] =95;
+
+           System.out.println(marks[2]);
+
+           //length
+           System.out.println(marks.length);
+
+           //sort
+           System.out.println(marks[0]);
+           Arrays.sort(marks);
+           System.out.println(marks[0]);
+           
+           
+           //----already known----
+
+           int[] marks ={97, 98 ,95};
+
+           int[][] finalMarks = {{97,98,95}, {95,95,98}};
+
+           System.out.println(finalMarks[1][1]);
+
+           */
+
+
+
+
 
    }
 
