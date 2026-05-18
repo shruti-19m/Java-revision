@@ -106,7 +106,7 @@ public class First {
            System.out.println(finalMarks[1][1]);
 
            */
-          
+          /* 
 
            //casting
            double price = 100.00;
@@ -129,8 +129,40 @@ public class First {
            System.out.println(PI);
            System.out.println("age");
 
+           */
+          /* 
+          //Operators-- 1.Arithmetic Operators
+                        2.Assignment Operators
+                        3.Logical Operators
+                        4.Comparison Operators
+
+            double a =1;
+            double b = 3;
+            double modulo = a % b;
+            System.out.println(modulo);
+
+           int numb = 1; 
+
+           System.out.println(++numb);//unirary operator
+           System.out.println(numb);
+           System.out.println(numb++);
+
+           */
+           
+           //Maths
+           //5,6
+           System.out.println(Math.min(5,6));
+           //random--har baar alag value milega.
+           System.out.println((int)(Math.random()*100));
 
            
+
+
+
+
+
+
+
 
 
            
