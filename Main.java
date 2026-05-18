@@ -124,7 +124,44 @@ public class Main {
       } while ( K >= 1);
 
 
-      
+      //BREAK & CONTINUE
+      int i = 0;
+      while (true) { 
+         if(i == 3) {
+            i = i +1;
+            continue;
+         }
+        System.out.println(i);
+        i = i +1;
+        if(i > 5) {
+           break;
+
+        }
+          
+      }
+
+    // TRY  --- CATCH IN EXCEPTION HANDLING
+    int[] marks = {97 , 98 , 95};
+    try {
+       System.out.println(marks[5]);
+    } catch( Exception exception) {
+      //do something after catching
+    }
+    System.out.println("The name is Velora");
+
+    //Methods/Funtions
+
+    System.out.println("Hello Java");
+/* 
+    //use method
+    printJava();
+    printJava();
+    printJava();
+
+
+    */
+
+
 
 
 
