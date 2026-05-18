@@ -45,18 +45,31 @@ public class First {
        */
        
        //Strings
-       //concatenate-----:adding two string.
+       /*
+       1.---concatenate-----:adding two string.
 
        String name1 ="velora";
        String name2 ="amoremio";
        String name3 =name1 + " and " + name2;
        System.out.println(name3);
+        
 
        //CharAt
-        String name ="velora";
-        System.out.println(name.charAt(0));
+        //String name ="velora";
+       // System.out.println(name.charAt(0));
 
+       // replace
+        String name = "Aman";
+        String name2 = name.replace('a','b');
+        System.out.println(name2);
+        System.out.println(name);*/
+
+        //substring
+
+        String name = "Aman and akku";
+        System.out.println(name.substring(5,9));
+
+   }
 
 
    }
-}
