@@ -88,12 +88,49 @@ public class Main {
       
 
       //---LOOPS---
+      System.out.println("1");
+      System.out.println("2");
+      System.out.println("3");
+
+
+      //1-100
+
+      for(int i = 1; i <= 100; i = i+1) {
+         System.out.println(i);
+      }
+
+      //100 -1
+
+      for(int i = 100; i >= 1; i = i-1) {
+        System.out.println(i);
+      }
+
+
+      //WHILE LOOP
+
+      int j = 100;
+      while(j >= 1){
+         System.out.println(j);
+         j = j-1;
+      }
+
+
+      //DO WHILE LOOP
+      int K = 100;
+      do {
+         System.out.println(K);
+         K =K - 1;
+
+      } while ( K >= 1);
+
 
       
 
 
 
-       
+
+
+
 
       
    }
