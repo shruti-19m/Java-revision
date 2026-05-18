@@ -106,6 +106,35 @@ public class First {
            System.out.println(finalMarks[1][1]);
 
            */
+          
+
+           //casting
+           double price = 100.00;
+           double finalPrice = price +18; //implicit casting
+
+           System.out.println(finalPrice);
+            
+           int p =100;
+           int fp = p+ (int)18.18; //Explicit casting
+           System.out.println(fp);
+           
+
+           //constants
+
+           int age = 30;
+           age = 31;
+           age =32;
+
+           final float PI =3.14F;
+           System.out.println(PI);
+           System.out.println("age");
+
+
+           
+
+
+           
+
 
 
 
