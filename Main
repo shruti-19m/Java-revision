@@ -74,7 +74,7 @@ public class Main {
       //conditional statements -- SWITCH
       int day = 1;  //1-monday;  2- tuesday
 
-      switch(day) {
+       switch(day) {
          case 1 :
             System.out.println("monday");
             break;
